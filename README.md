@@ -8,7 +8,7 @@ Wiggler
 ### What it does..
 
 When enabled, Wiggler will move your mouse randomly every 500 milliseconds to random coordinates on your  
-screen between [0,0] and [5,5] on your desktop.
+screen between [0,0] and [5,5] on your desktop to keep it from going to sleep or standby.
 
 ### How to use..
 
