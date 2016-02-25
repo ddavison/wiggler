@@ -15,3 +15,7 @@ screen between [0,0] and [5,5] on your desktop to keep it from going to sleep or
 1. Run `wiggler.exe`
 2. Press <kbd>Alt</kbd>+<kbd>F2</kbd> to start Wiggler.
 3. Press <kbd>Alt</kbd>+<kbd>F2</kbd> to stop.
+
+### If security is a concern (which of course, it should be)..
+
+Download AutoIt, and compile the `.au3` yourself.
