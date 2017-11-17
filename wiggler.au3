@@ -3,10 +3,15 @@ func wiggle()
   $wiggling = not $wiggling
   while true
 	if $wiggling = false then
-	  break
+	  exit
 	endif
-    mousemove(random(0, 5), random(0, 5))
-    sleep(500)
+
+	local $mousePosition = MouseGetPos()
+
+    mousemove($mousePosition[0] + 	2, $mousePosition[1])
+	mousemove($mousePosition[0] - 1, $mousePosition[1])
+
+    sleep(45 * 1000)
   wend
 
 endfunc
