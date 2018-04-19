@@ -1,3 +1,6 @@
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Icon=..\..\..\..\..\Users\edeldon\Pictures\network-64.ico
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 global $wiggling = false
 func wiggle()
   $wiggling = not $wiggling
